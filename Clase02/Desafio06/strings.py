@@ -1,0 +1,1 @@
+import sys; print (sys.argv[2][:(int(len(sys.argv[2])/2))] + sys.argv[1] + sys.argv[2][(int(len(sys.argv[2])/2)):] )

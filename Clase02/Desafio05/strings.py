@@ -1,0 +1,1 @@
+import sys; print('error') if len(sys.argv[1])<4 else print(sys.argv[1][:2]+sys.argv[1][-2:])
