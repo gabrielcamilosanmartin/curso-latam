@@ -1,6 +1,6 @@
 import requests
 
-def request(method, url, payload = {}):
+def request(method, url, payload = ''):
 
 	if method == "GET":
 		response = requests.request(method, url)
