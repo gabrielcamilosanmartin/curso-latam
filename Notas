@@ -3,3 +3,17 @@ import pdb; pdb.set_trace()
 pass wifi
 usuario: academicos
 Password: VamosConTodo
+
+
+
+
+
+
+
+import pandas as pn
+import numpy as np
+import seaborn as sns
+from scipy import stats
+import matplotlib.pyplot as plt
+
+df = pn.read_csv('nations.csv', encoding='latin-1', index_col=0)
